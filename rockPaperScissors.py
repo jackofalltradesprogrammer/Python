@@ -128,7 +128,47 @@ elif (p2score < p1score):
 else:
     winner = "none"
 print("The final socre is ", player1, " ", p1score, player2, " ",p2score,". " ,winner, " wins!")
-    
+
+
+
+# Problem: Rock, Paper, Scissors, Lizard Spock
+
+# With Rock, Paper, Scissors becoming too predictable a new version was created
+# adding in Lizard and Spock. In the diagram below we see Rock beats Scissors,
+# Scissors beats Paper, Paper beats Rock, as they always have, but we also see
+# new rules like Rock beats Lizard and Lizard beats Spock.
+# Create a 2 player version of this game where the users take turns picking one of
+# the options rock, paper, scissors, lizard, or Spock. Ask the two users to enter
+# their name and then begin the game. After both inputs calculate the winner
+# and add a point to their score. If either user inputs ”I quit!”, do not count
+# that game, state which user has won and end the program. Do not allow both
+# users to pick the same choice, ties are not allowed. All inputs should be case
+# insensitive.
+#  you should create 2 modules. One module
+# will return true or false based on the 2 inputs provided by the user and should
+# 4
+# indicate if player 1 has won. For example if the inputs are ( ”rock”, ”Spock” ) the
+# module should return False. Similarly if the inputs are ( ”lizard”, ”paper” ) the
+# module should return True. The second module should return the appropriate
+# verb from the diagram as a string. For example ( ”paper”, ”rock” ) should
+# return ”covers”.
+# Sample program run:
+# Player 1 enter your name: Susie
+# Player 2 enter your name: Steveroo
+# Susie pick one of rock, scissors, paper, lizard, Spock: lizard
+# Steveroo pick one of rock, scissors, paper, Spock: Spock
+# Lizard poisons Spock, Susie wins! Total: Susie 1 Steveroo 0
+# Susie pick one of rock, scissors, paper, lizard, Spock: paper
+# Steveroo pick one of rock, scissors, lizard, Spock: scissors
+# Scissors cuts paper, Steveroo wins! Total: Susie 1 Steveroo 1
+# Susie pick one of rock, scissors, paper, lizard, Spock: I quit
+# Invalid choice, try again:
+# Susie pick one of rock, scissors, paper, lizard, Spock: sPoCk
+# Steveroo pick one of rock, scissors, lizard, Spock: rOcK
+# Spock vaporizes rock, Susie wins! Total: Susie 2 Steveroo 1
+# Susie pick one of rock, scissors, paper, lizard, Spock: I quit!
+# The final score is Susie 2, Steveroo 1. Susie wins!
+
 
 
 
